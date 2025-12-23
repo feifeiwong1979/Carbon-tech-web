@@ -4,7 +4,7 @@ import {
   ArrowRight, ArrowLeft, ChevronRight, ChevronLeft, 
   PenTool, Award, 
   Zap, Heart, Cat, Sparkles, Target, Leaf 
-} from './Icons_temp'; 
+} from './icons'; 
 
 import { leadDesigner } from './constants';
 import { categoriesData } from './productsData';

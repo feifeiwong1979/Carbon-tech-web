@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // ✅ 确保从 icons 引入图标和 Logo
-import { Menu, X, ShoppingCart, Globe, Search, User, CarbonLogo } from './Icons_temp'; 
+import { Menu, X, ShoppingCart, Globe, Search, User, CarbonLogo } from './icons.jsx'; 
 
 const Navbar = ({ view, setView, lang = 'en', setLang, t = {}, isRTL, cartCount = 0 }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
