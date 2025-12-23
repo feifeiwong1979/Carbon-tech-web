@@ -1,6 +1,6 @@
 import React from 'react';
 // ✅ 1. 修正路径：从同级目录引入图标
-import { Filter, Settings, ShoppingCart, ChevronRight, ChevronLeft } from './icons';
+import { Filter, Settings, ShoppingCart, ChevronRight, ChevronLeft } from './Icons_temp';
 // ✅ 2. 修正路径：从同级目录引入数据
 import { companyConfig } from './constants';
 import { categoriesData } from './productsData';

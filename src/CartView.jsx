@@ -1,6 +1,6 @@
 import React from 'react';
 // ✅ 修正：使用 icons.jsx 中导出的正确名字 (Minus, Plus, Trash2)
-import { ShoppingCart, Plus, Minus, Trash2, Mail } from './icons';
+import { ShoppingCart, Plus, Minus, Trash2, Mail } from './Icons_temp';
 
 const CartView = ({ cart, removeFromCart, updateQuantity, lang, t, setView }) => {
   const totalPrice = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // ✅ 修正路径：从同级目录引入图标
-import { XCircle, Save, ImageIcon } from './icons';
+import { XCircle, Save, ImageIcon } from './Icons_temp';
 
 const ProductFormModal = ({ 
   currentProduct, 

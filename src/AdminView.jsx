@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // ✅ 1. 引入图标
-import { Settings, LogOut, Package, DollarSign, Plus, Edit3, Trash2 } from './icons';
+import { Settings, LogOut, Package, DollarSign, Plus, Edit3, Trash2 } from './Icons_temp';
 // ✅ 2. 引入数据
 import { categoriesData } from './productsData';
 // ✅ 3. 引入刚才创建的模态框组件
